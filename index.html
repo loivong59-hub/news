@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hôm Nay Có Gì Hot?</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+        }
+        header {
+            background: linear-gradient(135deg, #ff416c, #ff4b2b);
+            color: white;
+            text-align: center;
+            padding: 45px 20px;
+        }
+        header h1 { font-size: 42px; margin-bottom: 10px; }
+        header p { font-size: 18px; }
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 35px auto;
+        }
+        .section-title { font-size: 28px; margin-bottom: 20px; }
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        .card h2 { margin-bottom: 12px; font-size: 22px; }
+        .card p {
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        .card a {
+            display: inline-block;
+            background: #ff416c;
+            color: white;
+            text-decoration: none;
+            padding: 10px 18px;
+            border-radius: 8px;
+        }
+        .card a:hover { background: #e62e58; }
+        footer {
+            text-align: center;
+            background: #222;
+            color: white;
+            padding: 25px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🔥 Hôm Nay Có Gì Hot?</h1>
+        <p>Cập nhật những trang web và thông tin đang được quan tâm</p>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">🌐 Website nổi bật hôm nay</h2>
+
+        <div class="news-grid">
+            <div class="card">
+                <h2>🔥 Tin tức</h2>
+                <p>Xem những tin tức mới nhất đang được quan tâm.</p>
+                <a href="https://vnexpress.net/" target="_blank">Xem ngay →</a>
+            </div>
+
+            <div class="card">
+                <h2>🎵 Giải trí</h2>
+                <p>Cập nhật những nội dung giải trí đang hot.</p>
+                <a href="https://www.youtube.com/" target="_blank">Xem ngay →</a>
+            </div>
+
+            <div class="card">
+                <h2>📱 Mạng xã hội</h2>
+                <p>Xem những xu hướng đang nổi bật trên mạng xã hội.</p>
+                <a href="https://www.facebook.com/" target="_blank">Xem ngay →</a>
+            </div>
+
+            <div class="card">
+                <h2>🛒 Mua sắm</h2>
+                <p>Khám phá những sản phẩm và chương trình đang được quan tâm.</p>
+                <a href="https://www.shopee.vn/" target="_blank">Xem ngay →</a>
+            </div>
+
+            <div class="card">
+                <h2>⚽ Thể thao</h2>
+                <p>Cập nhật tin tức thể thao mới nhất.</p>
+                <a href="https://vnexpress.net/the-thao" target="_blank">Xem ngay →</a>
+            </div>
+
+            <div class="card">
+                <h2>💻 Công nghệ</h2>
+                <p>Cập nhật những thông tin công nghệ mới.</p>
+                <a href="https://genk.vn/" target="_blank">Xem ngay →</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Hôm Nay Có Gì Hot? | Website cá nhân</p>
+    </footer>
+</body>
+</html>
